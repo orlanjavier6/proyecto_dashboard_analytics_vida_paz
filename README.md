@@ -14,9 +14,10 @@ proyecto_dashboard_analytics_vida_paz/
 
 ├── Informe explicativo analítico.pdf # Informe detallado con resultados y conclusiones
 
+├── README.md # Descripción general del proyecto y documentación
+
 ├── VidaPazVentasBrutasCall.xlsx # Datos originales
 
-├── README.md # Descripción general del proyecto y documentación
 
 ---
 
