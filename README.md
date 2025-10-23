@@ -1,14 +1,11 @@
-# proyecto__dashboard_analytics_vida_paz
-Análisis y visualización de datos de empresa Vida Paz. Proyecto final del módulo Dashboard &amp; Análisis de Datos de Data Analytics de ThePower.
-
-# 📊 Proyecto: Dashboard & Análisis de Datos – Vida Paz
+# Proyecto: Dashboard & Análisis de Datos – Vida Paz
 
 Este proyecto forma parte del módulo **Dashboard & Análisis de Datos** del Máster en Data & Analytics de ThePower.  
 El objetivo es analizar las interacciones, resultados operativos y comerciales obtenidos de la empresa **Vida Paz** en su gestión de leads, con el fin de identificar oportunidades de mejora en la eficiencia, conversión y rendimiento por canal.
 
 ---
 
-## 🧩 Metodología del proyecto
+## Metodología del proyecto
 
 1. **Transformación y limpieza de los datos**
    - Se partió de una base original con más de 11.500 registros.
@@ -28,7 +25,7 @@ El objetivo es analizar las interacciones, resultados operativos y comerciales o
 
 ---
 
-## 📈 Resultados principales
+## Resultados principales
 
 - Total de interacciones analizadas: **11.93k**  
 - Interacciones logradas: **4.52k (37.8%)**  
@@ -40,7 +37,7 @@ El objetivo es analizar las interacciones, resultados operativos y comerciales o
 
 ---
 
-## 💡 Conclusiones y recomendaciones
+## Conclusiones y recomendaciones
 
 1. **Rapidez**: los primeros minutos son críticos para contactar al lead.  
 2. **Optimización**: ajustar la segmentación de campañas de Paid Media.  
@@ -50,20 +47,20 @@ El objetivo es analizar las interacciones, resultados operativos y comerciales o
 
 ---
 
-## 📊 Recursos del proyecto
+## Recursos del proyecto
 
-- **📈 Dashboard en Google Sheets (modo lectura):**  
-  👉 [Abrir dashboard interactivo](https://docs.google.com/spreadsheets/d/1RdzgYWr-tlIwoMfuNFMZOQTsNvzWIGnyGPVJ96EbOVE/edit?usp=sharing)
+- **Dashboard en Google Sheets (modo lectura):**  
+  [Abrir dashboard interactivo](https://docs.google.com/spreadsheets/d/1RdzgYWr-tlIwoMfuNFMZOQTsNvzWIGnyGPVJ96EbOVE/edit?usp=sharing)
 
-- **📁 Datos originales:**  
+- **Datos originales:**  
   `VidaPazVentasBrutasCall.xlsx`
 
-- **📝 Informe explicativo:**  
+- **Informe explicativo:**  
   `Informe explicativo analítico.pdf`
 
 ---
 
-## 🧠 Herramientas utilizadas
+## Herramientas utilizadas
 
 - Google Sheets  
 - Google Apps Script (macros y automatizaciones)  
@@ -72,14 +69,14 @@ El objetivo es analizar las interacciones, resultados operativos y comerciales o
 
 ---
 
-## 👤 Autor
+## Autor
 
 **Orlan Javier Parra Parra**  
 Máster en Data & Analytics – Proyecto Final del módulo *Dashboard & Análisis de Datos*  
 
 ---
 
-## ✅ Checklist de entrega
+## Checklist de entrega
 
 - [x] Repositorio público en GitHub  
 - [x] Archivo `README.md` con informe y enlaces  
