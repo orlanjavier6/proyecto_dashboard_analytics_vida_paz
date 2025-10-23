@@ -11,8 +11,11 @@ La información fue procesada, depurada y visualizada en **Google Sheets**, dond
 El repositorio está organizado para facilitar la comprensión y navegación de los archivos:
 
 proyecto_dashboard_analytics_vida_paz/
+
 ├── Informe explicativo analítico.pdf # Informe detallado con resultados y conclusiones
+
 ├── VidaPazVentasBrutasCall.xlsx # Datos originales
+
 ├── README.md # Descripción general del proyecto y documentación
 
 ---
