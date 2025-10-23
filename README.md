@@ -67,9 +67,8 @@ proyecto_dashboard_analytics_vida_paz/
 ---
 
 ## Próximos Pasos
-- Incluir datos de inversión publicitaria para analizar el ROI por canal.  
-- Desarrollar alertas automáticas de leads no contactados.  
-- Integrar fuentes de datos adicionales (CRM, campañas digitales).  
+- Incluir datos de inversión publicitaria para seguir analizando con las ventas reales.    
+- Integrar más fuentes de datos adicionales (CRM, campañas digitales, entre otras).  
 
 ---
 
