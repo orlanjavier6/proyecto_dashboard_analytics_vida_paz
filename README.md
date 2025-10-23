@@ -29,12 +29,9 @@ proyecto_dashboard_analytics_vida_paz/
 ---
 
 ## Proceso Metodológico
-1. **Transformación y limpieza de datos:**  
-   Eliminación de duplicados, estandarización de campos y unificación de fechas.
-2. **Análisis descriptivo:**  
-   Cálculo de métricas operativas, comerciales y de origen.
-3. **Dashboard interactivo:**  
-   Creación de visualizaciones y KPIs clave mediante gráficos y macros.
+1. **Transformación y limpieza de datos:** eliminación de duplicados, estandarización de campos y unificación de fechas.
+2. **Análisis descriptivo:** cálculo de métricas operativas, comerciales y de origen.
+3. **Dashboard interactivo:** creación de visualizaciones y KPIs clave mediante gráficos y macros.
 
 ---
 
