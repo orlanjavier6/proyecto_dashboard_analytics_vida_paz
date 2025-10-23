@@ -1,86 +1,81 @@
 # Proyecto: Dashboard & Análisis de Datos – Vida Paz
 
-Este proyecto forma parte del módulo **Dashboard & Análisis de Datos** del Máster en Data & Analytics de ThePower.  
-El objetivo es analizar las interacciones, resultados operativos y comerciales obtenidos de la empresa **Vida Paz** en su gestión de leads, con el fin de identificar oportunidades de mejora en la eficiencia, conversión y rendimiento por canal.
+Este proyecto forma parte del módulo **Dashboard & Análisis de Datos** del Máster en Data & Analytics.  
+El análisis se centra en el rendimiento operativo, comercial y de origen de los **leads gestionados** del cliente **Vida Paz**, con el objetivo de detectar oportunidades de mejora en la conversión, velocidad de respuesta y eficiencia de campañas.
+
+La información fue procesada, depurada y visualizada en **Google Sheets**, donde se creó un **dashboard interactivo** con filtros, macros y gráficos dinámicos para facilitar el análisis.
 
 ---
 
-## Metodología del proyecto
+## Estructura del Proyecto
+El repositorio está organizado para facilitar la comprensión y navegación de los archivos:
 
-1. **Transformación y limpieza de los datos**
-   - Se partió de una base original con más de 11.500 registros.
-   - Se eliminaron columnas vacías y duplicadas.
-   - Se homogeneizaron formatos de texto y fechas.
-   - Se crearon variables derivadas (duración de contacto, estatus de interacción, canal, tipo de llamada, entre otras).
-
-2. **Análisis descriptivo**
-   - Evaluación de métricas operativas (interacciones, efectividad, tiempos de respuesta).
-   - Análisis comercial (estatus, cierres, conversiones).
-   - Análisis de origen (canales, campañas, palabras clave y ubicación geográfica).
-
-3. **Dashboard interactivo**
-   - Creado en Google Sheets con macros y filtros dinámicos.
-   - Permite alternar entre valores absolutos y porcentuales.
-   - Incluye visualizaciones de interacciones, canales, campañas, resultados, estatus y distribución geográfica.
+proyecto_dashboard_analytics_vida_paz/
+├── Informe explicativo analítico.pdf # Informe detallado con resultados y conclusiones
+├── VidaPazVentasBrutasCall.xlsx # Datos originales
+├── README.md # Descripción general del proyecto y documentación
 
 ---
 
-## Resultados principales
+## Herramientas y Tecnologías Utilizadas
+- **Google Sheets** → limpieza, análisis descriptivo y dashboard  
+- **Google Apps Script** → automatización de macros y filtros dinámicos  
+- **Tablas dinámicas y gráficos interactivos**  
+- **Funciones de limpieza y cálculo:** `SUSTITUIR`, `FILTRAR`, `VALOR`, `CONTAR.SI`, entre otras  
+
+---
+
+## Proceso Metodológico
+1. **Transformación y limpieza de datos:**  
+   Eliminación de duplicados, estandarización de campos y unificación de fechas.
+2. **Análisis descriptivo:**  
+   Cálculo de métricas operativas, comerciales y de origen.
+3. **Dashboard interactivo:**  
+   Creación de visualizaciones y KPIs clave mediante gráficos y macros.
+
+---
+
+## Resultados y Conclusiones
 
 - Total de interacciones analizadas: **11.93k**  
-- Interacciones logradas: **4.52k (37.8%)**  
-- Los primeros **5 minutos** concentran la mayoría de los contactos logrados (3.9k).  
-- Los canales **C2C**, **llamadas entrantes** y **WhatsApp** son los más productivos.  
-- **Paid Media** aporta volumen, pero requiere optimización de segmentación.  
-- La tasa de cierre comercial sigue siendo baja en comparación con el total de contactos.  
-- La mayor concentración geográfica se encuentra en **Ciudad de México (49%)**, seguida por **Nuevo León** y **Jalisco**.
+- Interacciones logradas: **4.52k (37,85%)**  
+- Los primeros **5 minutos** concentran el 87% de los contactos logrados.  
+- Canales más efectivos: **C2C**, **llamadas entrantes** y **WhatsApp**.  
+- **Paid Media** genera mayor volumen, aunque con calidad variable.  
+- La **tasa de cierre** es baja frente al total de contactos, lo que sugiere áreas de mejora comercial.  
+- **Ciudad de México**, **Nuevo León** y **Jalisco** concentran la mayoría de las interacciones.
 
 ---
 
-## Conclusiones y recomendaciones
+## Recomendaciones
 
-1. **Rapidez**: los primeros minutos son críticos para contactar al lead.  
-2. **Optimización**: ajustar la segmentación de campañas de Paid Media.  
-3. **Seguimiento**: implementar procesos más estrictos para evitar la pérdida de leads.  
-4. **Gestión comercial**: fortalecer la trazabilidad y clasificación de registros.  
-5. **Expansión**: aprovechar zonas con menor actividad para ampliar cobertura.  
-
----
-
-## Recursos del proyecto
-
-- **Dashboard en Google Sheets (modo lectura):**  
-  [Abrir dashboard interactivo](https://docs.google.com/spreadsheets/d/1RdzgYWr-tlIwoMfuNFMZOQTsNvzWIGnyGPVJ96EbOVE/edit?usp=sharing)
-
-- **Datos originales:**  
-  `VidaPazVentasBrutasCall.xlsx`
-
-- **Informe explicativo:**  
-  `Informe explicativo analítico.pdf`
+- **Agilizar la respuesta inicial:** priorizar la atención dentro de los primeros 5 minutos.  
+- **Optimizar Paid Media:** mejorar la segmentación y seguimiento de leads.  
+- **Mejorar la trazabilidad:** estandarizar estatus y clasificaciones.  
+- **Fortalecer la gestión comercial:** capacitar equipos para aumentar la tasa de cierre.  
+- **Expandir cobertura:** focalizar campañas en regiones con menor actividad.
 
 ---
 
-## Herramientas utilizadas
+## Dashboard Interactivo
+**Dashboard e información en Google Sheets (modo lectura):**  
+<a href="https://docs.google.com/spreadsheets/d/1RdzgYWr-tlIwoMfuNFMZOQTsNvzWIGnyGPVJ96EbOVE/edit?usp=sharing" target="_blank">Abrir Dashboard Interactivo e Información</a>
 
-- Google Sheets  
-- Google Apps Script (macros y automatizaciones)  
-- Tablas dinámicas y gráficos interactivos  
-- Funciones de limpieza y análisis (`SUSTITUIR`, `FILTRAR`, `VALOR`, etc.)
+---
+
+## Próximos Pasos
+- Incluir datos de inversión publicitaria para analizar el ROI por canal.  
+- Desarrollar alertas automáticas de leads no contactados.  
+- Integrar fuentes de datos adicionales (CRM, campañas digitales).  
+
+---
+
+## Contribuciones
+Las contribuciones y sugerencias son bienvenidas.  
+Si deseas mejorar o ampliar este proyecto, puedes abrir una *issue* o un *pull request*.
 
 ---
 
 ## Autor
-
-**Orlan Javier Parra Parra**  
-Máster en Data & Analytics – Proyecto Final del módulo *Dashboard & Análisis de Datos*  
-
----
-
-## Checklist de entrega
-
-- [x] Repositorio público en GitHub  
-- [x] Archivo `README.md` con informe y enlaces  
-- [x] Dashboard accesible en modo lectura  
-- [x] Datos originales incluidos  
-- [x] Informe explicativo en PDF adjunto
-
+**[Orlan Javier Parra Parra]**  
+[@orlanjavier6](https://github.com/orlanjavier6)
